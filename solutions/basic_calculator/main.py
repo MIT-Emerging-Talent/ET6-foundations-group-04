@@ -50,21 +50,3 @@ def calculate(operation: str, num1: float, num2: float) -> float:
         return num1 / num2
     else:
         raise ValueError(f"Invalid operation '{operation}'. Valid operations are: add, subtract, multiply, divide.")
-
-if __name__ == "__main__":
-    print("Welcome to the Basic Calculator!")
-    print("Available operations: add, subtract, multiply, divide")
-    
-    while True:
-        try:
-            operation = input("Enter the operation: ").strip().lower()
-            num1 = float(input("Enter the first number: "))
-            num2 = float(input("Enter the second number: "))
-            
-            result = calculate(operation, num1, num2)
-            print(f"The result of {operation} operation is: {result}")
-            break  # Exit the loop if the operation is successful
-        
-        except ValueError as e:
-            print(f"Error: {e}")
-            print("Let's try again!")
