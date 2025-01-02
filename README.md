@@ -76,6 +76,12 @@ while maintaining a culture of accountability and care.
          <td>Semira Tesfai</td>
          <td><a href="https://github.com/SEMIRATESFAI">SEMIRATESFAI</a></td>
       </tr>
+      <tr>
+         <td><img src="https://avatars.githubusercontent.com/u/189357565?v=4"
+         alt="Adolfo Fumero" width="50"></td>
+         <td>Adolfo Fumero</td>
+         <td><a href="https://github.com/ajfumero8">Adolfo Fumero</a></td>
+      </tr>   
    </tbody>
 </table>
 <!-- markdownlint-enable MD033 -->
