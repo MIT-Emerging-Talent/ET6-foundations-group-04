@@ -47,7 +47,7 @@ ______________________________________________________________________
 | **Ana Isabel Murillo**   | 7 - 10 PM EST| 7 - 10 PM EST | 7 - 10 PM EST | 7 - 10 PM EST | 7 - 10 PM EST | 12 - 4 PM EST   | Not available  |
 | **Pierre Kenley MERVIL** | 7 AM - 10 PM | 5 - 10 PM EST | 7 AM - 10 PM  | 5 - 10 PM EST | 5 - 10 PM EST | 7 AM - 10 PM    | 5 - 10 PM EST  |
 | **Cliforde Exael**       | 5 - 9 PM EST | 5 - 9 PM EST  | 5 - 9 PM EST  | 5 - 9 PM EST  | 5 - 9 PM EST  | 5 - 9 PM EST    | 5 - 9 PM EST   |
-
+| **Adolfo Fumero**        | All day      | 4 - 10 PM EST | 4 - 10 PM EST | 4 - 10 PM EST | 4 - 10 PM EST | 9 - 12 AM EST   | Not availible  |
 ______________________________________________________________________
 <!-- markdownlint-enable MD013 -->
 ### How many hours everyone has per day
