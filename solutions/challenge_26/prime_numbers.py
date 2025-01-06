@@ -50,8 +50,4 @@ def prime_numbers(number: int) -> str:
     return "is prime"
 
 
-# Example usage
-if __name__ == "__main__":
-    number = int(input("Enter a number: "))
-    result = prime_numbers(number)
-    print(result)
+
