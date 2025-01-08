@@ -44,7 +44,3 @@ class TestHideCreditCard(unittest.TestCase):
         """Test with non-string input."""
         with self.assertRaises(ValueError):
             hide_credit_card(12345678)
-
-
-if __name__ == "__main__":
-    unittest.main()
