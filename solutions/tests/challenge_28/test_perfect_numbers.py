@@ -46,3 +46,7 @@ class TestPerfectNumbers(unittest.TestCase):
         """
         self.assertEqual(perfect_numbers_in_range(1, 100), [6, 28])
         self.assertEqual(perfect_numbers_in_range(1, 1000), [6, 28, 496])
+
+
+if __name__ == "__main__":
+    unittest.main()
