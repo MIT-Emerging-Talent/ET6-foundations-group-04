@@ -8,7 +8,7 @@ Created on 06 Jan 2025
 
 import unittest
 
-from solutions.challenge_28.perfect_numbers import (  # type: ignore
+from solutions.challenge_28.perfect_numbers import (
     get_divisors,
     is_perfect_number,
     perfect_numbers_in_range,
