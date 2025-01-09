@@ -6,7 +6,7 @@ Tests for the word_lengths function.
 
 import unittest
 
-from solutions.word.word import word_lengths
+from solutions.challenge_39.word import word_lengths
 
 
 class TestWordLengths(unittest.TestCase):
