@@ -6,11 +6,11 @@ Tests for the word_lengths function.
 
 import unittest
 
-from solutions.challenge_39.word import word_lengths
+from solutions.challenge_39.word_length_counter import word_lengths
 
 
 class TestWordLengths(unittest.TestCase):
-    def test_regular_sentences(self):
+    def test_multiple_words(self):
         self.assertEqual(word_lengths("Hello world!"), [5, 5])
         self.assertEqual(word_lengths("Python is awesome."), [6, 2, 7])
 
