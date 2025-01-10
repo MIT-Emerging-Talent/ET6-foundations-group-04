@@ -4,13 +4,12 @@
 A module for identifying perfect numbers in a given range
 Created on 06 Jan 2025
 @author: Arthur (Mr-Glucose)
+
 """
 
 
 def get_divisors(n):
-    """
-    Returns a list of divisors of n, excluding n itself.
-    """
+    """Checks if a list of divisors of n, excluding n itself"""
     if n <= 0:
         raise ValueError("Input must be a positive integer greater than 0")
 
