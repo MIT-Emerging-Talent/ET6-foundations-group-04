@@ -19,6 +19,11 @@ def word_lengths(input_sentence: str) -> list[int]:
     Returns:
         list: A list of integers representing word lengths.
 
+    Assumptions:
+        - If the input sentence is empty, the function will return an empty list.
+        - Punctuation is ignored when calculating word lengths.
+        - Case sensitivity does not affect word length calculation.
+
     Examples:
         >>> word_lengths("Hello world!")
         [5, 5]
