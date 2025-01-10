@@ -2,20 +2,34 @@
 # -*- coding: utf-8 -*-
 """
 A module for calculating the sum of the digits of a positive integer.
+
 Module contents:
-sum_of_digits: calculates the sum of the digits of a positive integer.
+    sum_of_digits: calculates the sum of the digits of a positive integer.
+
 Created on January 3rd, 2025
 @author: Semira Tesfai
 """
 
-
 def sum_of_digits(n: int) -> int:
     """Calculate the sum of the digits of a positive integer.
-    Parameters:
-        n: int, the positive integer whose digits will be summed
-    Returns -> int: the sum of the digits of the given integer
-    Raises:
-        AssertionError: if the argument is not a positive integer
+
+    Parameters
+    ----------
+    n : int
+        The positive integer whose digits will be summed.
+
+    Returns
+    -------
+    int
+        The sum of the digits of the given integer.
+
+    Raises
+    ------
+    AssertionError
+        If the argument is not a positive integer.
+
+    Examples
+    --------
     >>> sum_of_digits(123)
     6
     >>> sum_of_digits(4567)
