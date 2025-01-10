@@ -10,6 +10,7 @@ Created on January 3rd, 2025
 @author: Semira Tesfai
 """
 
+
 def sum_of_digits(n: int) -> int:
     """Calculate the sum of the digits of a positive integer.
 

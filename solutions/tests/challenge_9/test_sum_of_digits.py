@@ -6,7 +6,8 @@ Created on January 3rd, 2025
 """
 
 import unittest
-from sum_of_digits import sum_of_digits
+from solutions.challenge_9.sum_of_digits import sum_of_digits
+
 
 class TestSumOfDigits(unittest.TestCase):
     """Tests for the sum_of_digits function."""
@@ -30,8 +31,8 @@ class TestSumOfDigits(unittest.TestCase):
         with self.assertRaises(AssertionError):
             sum_of_digits(4.5)
         with self.assertRaises(AssertionError):
-            sum_of_digits('123')
+            sum_of_digits("123")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
-
