@@ -10,7 +10,7 @@ Created on 2024-12-29
 Author: Ana Isabel Murillo
 """
 
-from solutions.basic_calculator.basic_calculator import calculate
+from solutions.basic_calculator.calculate import calculate
 
 import unittest
 
