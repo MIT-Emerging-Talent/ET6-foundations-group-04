@@ -38,5 +38,7 @@ def sum_of_digits(n: int) -> int:
     >>> sum_of_digits(0)
     0
     """
-    assert isinstance(n, int) and n >= 0, "input must be a positive integer"
+    if not isinstance(n, int) or n < 0: 
+        raise ValueError("input must be a positive integer") 
+        
     return sum(int(digit) for digit in str(n))
