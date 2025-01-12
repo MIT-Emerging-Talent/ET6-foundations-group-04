@@ -20,27 +20,6 @@ def prime_numbers(number: int) -> str:
     Returns:
         str: A string indicating whether the number is prime or not.
              Returns "is prime" if the number is prime, otherwise "not prime".
-
-    Algorithm:
-        1. If the number is less than or equal to 1, it is not a prime number.
-        2. Iterate from 2 to the square root of the number (inclusive).
-           - If the number is divisible by any of these values, it is not a prime number.
-        3. If no divisors are found, the number is a prime number.
-
-    Example Usage:
-        >>> prime_numbers(9)
-        'not prime'
-        >>> prime_numbers(7)
-        'is prime'
-        >>> prime_numbers(1)
-        'not prime'
-        >>> prime_numbers(13)
-        'is prime'
-
-    Note:
-        - This function uses a simple algorithm to check for primality by testing divisors
-          up to the square root of the input number for efficiency.
-        - The result is returned as a string, which may be useful for simple display or testing.
     """
     if number <= 1:
         return "not prime"
@@ -50,4 +29,15 @@ def prime_numbers(number: int) -> str:
     return "is prime"
 
 
-# Example usage
+# Main program to take user input and call the prime_numbers function
+if __name__ == "__main__":
+    try:
+        # Demander à l'utilisateur d'entrer un nombre
+        number = int(input("Enter a number to check if it is prime: "))
+        
+        # Appeler la fonction et afficher le résultat
+        result = prime_numbers(number)
+        print(f"The number {number} is {result}.")
+    
+    except ValueError:
+        print("Please enter a valid integer.")
