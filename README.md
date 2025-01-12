@@ -23,56 +23,64 @@ while maintaining a culture of accountability and care.
       <tr>
          <td>
             <img src="https://avatars.githubusercontent.com/u/189562848?v=4"
-                 alt="Ana Isabel Murillo" width="50">
+                 alt="Ana Isabel Murillo" width="65">
          </td>
          <td>Ana Isabel Murillo</td>
          <td><a href="https://github.com/AnaiMurillo">AnaiMurillo</a></td>
-      </tr><tr>
+      </tr>
+      <td>
+            <img src="https://avatars.githubusercontent.com/u/189357565?v=4"
+                 alt="Adolfo Fumero" width="65">
+         </td>
+         <td>Adolfo Fumero</td>
+         <td><a href="https://github.com/ajfumero8">ajfumero8</a></td>
+      </tr>
+      <tr>
          <td><img src="https://avatars.githubusercontent.com/u/174089681?v=4"
-         alt="Mr-Glucose" width="50"></td>
+         alt="Mr-Glucose" width="65"></td>
          <td>Arthur Dorvil</td>
          <td><a href="https://github.com/Mr-Glucose">Mr-Glucose</a></td>
       </tr>
       <tr>
          <td><img src="https://avatars.githubusercontent.com/u/188538629?v=4"
-         alt="Chrismy Augustin" width="50"></td>
+         alt="Chrismy Augustin" width="65"></td>
          <td>Chrismy Augustin</td>
          <td><a href="https://github.com/likechrisss">likechrisss</a></td>
       </tr>
       <tr>
          <td><img src="https://avatars.githubusercontent.com/u/92646899?v=4"
-         alt="Cliforde Exael" width="50"></td>
+         alt="Cliforde Exael" width="65"></td>
          <td>Cliforde Exael</td>
          <td><a href="https://github.com/Lastrophysicien">Lastrophysicien</a></td>
       </tr>
       <tr>
          <td><img src="https://avatars.githubusercontent.com/u/115899276?v=4"
-         alt="Hector Colmenares" width="50"></td>
+         alt="Hector Colmenares" width="65"></td>
          <td>Hector Colmenares</td>
          <td><a href="https://github.com/hectordacb">hectordacb</a></td>
       </tr>
       <tr>
          <td><img src="https://avatars.githubusercontent.com/u/189242306?v=4"
-         alt="Jeampierr Jiménez" width="50"></td>
+         alt="Jeampierr Jiménez" width="65"></td>
          <td>Jeampierr Jiménez</td>
          <td><a href="https://github.com/Jeampierr1102">Jeampierr1102</a></td>
       </tr>
       <td>
             <img src="https://avatars.githubusercontent.com/u/189233851?v=4"
-                 alt="Pierre Kenley MERVIL" width="50">
+                 alt="Pierre Kenley MERVIL" width="65">
          </td>
          <td>Pierre Kenley MERVIL</td>
          <td><a href="https://github.com/MPKenley">MPKenley</a></td>
       </tr>
       <tr>
          <td><img src="https://avatars.githubusercontent.com/u/86928180?v=4"
-         alt="Ramon Colmenares" width="50"></td>
+         alt="Ramon Colmenares" width="65"></td>
          <td>Ramon Colmenares</td>
          <td><a href="https://github.com/RamonColmenares">RamonColmenares</a></td>
       </tr>
       <tr>
          <td><img src="https://avatars.githubusercontent.com/u/189634607?v=4"
-         alt="Semira Tesfai" width="50"></td>
+         alt="Semira Tesfai" width="65"></td>
          <td>Semira Tesfai</td>
          <td><a href="https://github.com/SEMIRATESFAI">SEMIRATESFAI</a></td>
       </tr>
