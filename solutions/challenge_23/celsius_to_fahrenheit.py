@@ -13,7 +13,17 @@ def celsius_to_fahrenheit(celsius_list):
 
     Raises:
         ValueError: If input is not a list or contains invalid elements.
+
+    >>> celsius_to_fahrenheit([0, 100])
+    [32.0, 212.0]
+
+    >>> celsius_to_fahrenheit([-40, -10])
+    [-40.0, 14.0]
+
+    >>> celsius_to_fahrenheit([25.5, 0.5])
+    [77.9, 32.9]
     """
+
     if not isinstance(celsius_list, list):
         raise ValueError("Input must be a list.")
 
