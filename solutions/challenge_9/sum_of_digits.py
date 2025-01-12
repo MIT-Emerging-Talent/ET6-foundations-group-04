@@ -17,7 +17,7 @@ def sum_of_digits(n: int) -> int:
     Parameters
     ----------
     n : int
-        The positive integer whose digits will be summed.
+        The non-negative integer whose digits will be summed.
 
     Returns
     -------
@@ -27,7 +27,7 @@ def sum_of_digits(n: int) -> int:
     Raises
     ------
     ValueError
-        If the argument is not a positive integer.
+        If the argument is not a non-negative integer.
 
     Examples
     --------
@@ -38,13 +38,8 @@ def sum_of_digits(n: int) -> int:
     >>> sum_of_digits(0)
     0
     """
-<<<<<<< HEAD
-    if not isinstance(n, int) or n < 0:
-        raise ValueError("input must be a positive integer")
 
-=======
-    if not isinstance(n, int) or n < 0: 
-        raise ValueError("input must be a positive integer") 
-        
->>>>>>> fa9d0449dd92ca71f314a224b392f8f360892773
+    if not isinstance(n, int) or n < 0:
+        raise ValueError("input must be a non-negative integer.")
+
     return sum(int(digit) for digit in str(n))
