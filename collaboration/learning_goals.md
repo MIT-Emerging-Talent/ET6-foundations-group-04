@@ -86,7 +86,7 @@
 
 ---
 
-### Chrismy
+### Chrismy Augustin
 
 - Gain more knowledge and hands-on experience with industry-standard tools and
 technologies like VS Code, Python, GitHub.  
