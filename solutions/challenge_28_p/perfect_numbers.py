@@ -33,12 +33,3 @@ def perfect_numbers_in_range(start, end):
     if start > end:
         raise ValueError("Start should not be greater than end")
     return [num for num in range(start, end + 1) if is_perfect_number(num)]
-
-
-if __name__ == "__main__":
-    try:
-        # Example usage
-        found_perfect_numbers = perfect_numbers_in_range(1, 1000)
-        print("Perfect numbers between 1 and 1000:", found_perfect_numbers)
-    except ValueError as e:
-        print(f"Error: {e}")
