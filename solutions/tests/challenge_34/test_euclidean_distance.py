@@ -9,7 +9,7 @@ euclidean_distance function across different cases.
 
 import unittest
 
-from ...challenge_34.euclidean_distance import euclidean_distance
+from solutions.challenge_34.euclidean_distance import euclidean_distance
 
 
 class TestEuclideanDistance(unittest.TestCase):
