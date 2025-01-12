@@ -53,7 +53,10 @@
 
 ### Adolfo Fumero
 
----
+- Develop my programming and computational skills
+- Gain stronger problem solving skills and my creativity derived from the challenges in this class
+- Be more engaged with my peers and the MIT talents community
+- Achieve a better worth ethic and organzational skills to improve my learning and studying habits
 
 ### Ana Isabel Murillo
 
