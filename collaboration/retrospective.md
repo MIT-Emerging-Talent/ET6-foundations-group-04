@@ -52,7 +52,8 @@ in organizing tasks and fostering collaboration.
   - Breaking the project into manageable phases improved focus and streamlined execution.
 
 - **Execution**:
-  - Regular updates and check-ins maintained alignment and allowed for early identification of challenges.
+  - Regular updates and check-ins maintained alignment and allowed for early identification
+  of challenges.
   - Flexibility in task assignment helped the team address unexpected hurdles efficiently.
 
 ### **Collaboration**
@@ -62,13 +63,15 @@ in organizing tasks and fostering collaboration.
   - Shared tools improved visibility and coordination among team members.
 
 - **Accountability**:
-  - Clear roles and responsibilities empowered team members to stay focused and on track.
+  - Clear roles and responsibilities empowered team members to stay focused and
+  on track.
 
 ### **Satisfaction**
 
 - **Feedback**:
   - The structured approach and clear goals were highly appreciated by the team.
-  - Regular updates and a thoughtful combination of tools contributed to a positive experience for everyone involved.
+  - Regular updates and a thoughtful combination of tools contributed to a positive
+  experience for everyone involved.
 
 ---
 
@@ -106,7 +109,8 @@ in organizing tasks and fostering collaboration.
 
 - **Enhancements**:
   - Explore advanced project management tools to improve tracking and analytics.
-  - Schedule regular retrospectives to celebrate progress and proactively address potential issues.
+  - Schedule regular retrospectives to celebrate progress and proactively address
+  potential issues.
 
 ### **Team Commitment**
 
