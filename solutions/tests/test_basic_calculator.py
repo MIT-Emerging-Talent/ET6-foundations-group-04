@@ -18,28 +18,52 @@ import unittest
 class TestCalculate(unittest.TestCase):
     """Test suite for the calculate function."""
 
-    def test_addition(self):
-        """It should correctly add two numbers."""
+    def test_addition_positive_numbers(self):
+        """It should correctly add two positive numbers."""
         self.assertEqual(calculate("add", 5, 3), 8.0)
+
+    def test_addition_negative_numbers(self):
+        """It should correctly add two negative numbers."""
         self.assertEqual(calculate("add", -5, -3), -8.0)
+
+    def test_addition_zero(self):
+        """It should correctly add zero to a number."""
         self.assertEqual(calculate("add", 0, 5), 5.0)
 
-    def test_subtraction(self):
-        """It should correctly subtract the second number from the first."""
+    def test_subtraction_positive_numbers(self):
+        """It should correctly subtract two positive numbers."""
         self.assertEqual(calculate("subtract", 10, 4), 6.0)
+
+    def test_subtraction_negative_numbers(self):
+        """It should correctly subtract two negative numbers."""
         self.assertEqual(calculate("subtract", -5, -5), 0.0)
+
+    def test_subtraction_zero(self):
+        """It should correctly subtract a number from zero."""
         self.assertEqual(calculate("subtract", 0, 5), -5.0)
 
-    def test_multiplication(self):
-        """It should correctly multiply two numbers."""
+    def test_multiplication_positive_numbers(self):
+        """It should correctly multiply two positive numbers."""
         self.assertEqual(calculate("multiply", 7, 3), 21.0)
+
+    def test_multiplication_negative_numbers(self):
+        """It should correctly multiply a negative and a positive number."""
         self.assertEqual(calculate("multiply", -2, 3), -6.0)
+
+    def test_multiplication_with_zero(self):
+        """It should return zero when multiplying by zero."""
         self.assertEqual(calculate("multiply", 0, 10), 0.0)
 
-    def test_division(self):
-        """It should correctly divide the first number by the second."""
+    def test_division_positive_numbers(self):
+        """It should correctly divide two positive numbers."""
         self.assertEqual(calculate("divide", 9, 3), 3.0)
+
+    def test_division_negative_numbers(self):
+        """It should correctly divide a negative and a positive number."""
         self.assertEqual(calculate("divide", -6, 3), -2.0)
+
+    def test_division_result_with_float(self):
+        """It should correctly handle division resulting in a float."""
         self.assertAlmostEqual(calculate("divide", 7, 2), 3.5)
 
     def test_division_by_zero(self):
