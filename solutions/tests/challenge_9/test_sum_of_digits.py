@@ -12,15 +12,15 @@ from solutions.challenge_9.sum_of_digits import sum_of_digits
 class TestSumOfDigits(unittest.TestCase):
     """Tests for the sum_of_digits function."""
 
-    def test_positive_integer(self):
+    def test_with_positive_integer(self):
         """Ensure that the sum of digits of a positive integer is calculated correctly."""
         self.assertEqual(sum_of_digits(123), 6)
 
-    def test_large_integer(self):
+    def test_with_large_integer(self):
         """Ensure that the sum of digits of a large positive integer is calculated correctly."""
         self.assertEqual(sum_of_digits(4567), 22)
 
-    def test_zero(self):
+    def test_with_zero(self):
         """Ensure that the sum of digits of zero is zero."""
         self.assertEqual(sum_of_digits(0), 0)
 
