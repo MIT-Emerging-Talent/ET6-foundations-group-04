@@ -1,12 +1,24 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*--
+"""
+Created on 01/03/2025
+
+ Description of the module, its purpose, and its functionality.
+
+Feedback: It would be useful to put a docstring on the top of the module and explain its functionality.
+
+"""
+
+import math
+
+# The rest of the code goes here...
+
+
 """
 Created on 01/03/2025
 
 @Author: Clifford Exael
 """
-
-import math
 
 
 def euclidean_distance(point1, point2):
