@@ -53,6 +53,13 @@
 
 ### Adolfo Fumero
 
+- Improve my problem-tackling skills and creativity in my approach through
+the challenges in this class
+- Become more engaged with my peers and teachers in the MIT talents community
+- Achieve computer programming skills that can help me in my day to day life
+- Improve my organizational and productivity schedules in order to study
+ and learn better
+
 ---
 
 ### Ana Isabel Murillo
