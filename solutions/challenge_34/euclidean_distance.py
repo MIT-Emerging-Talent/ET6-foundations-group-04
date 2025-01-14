@@ -37,28 +37,3 @@ def euclidean_distance(point1, point2):
     # Calculate the Euclidean distance
     distance = math.sqrt(sum((a - b) ** 2 for a, b in zip(point1, point2)))
     return distance
-
-
-# Input coordinates for the first point
-p1 = tuple(
-    map(
-        float,
-        input(
-            "Enter the coordinates of the first point (separated by spaces): "
-        ).split(),
-    )
-)
-
-# Input coordinates for the second point
-p2 = tuple(
-    map(
-        float,
-        input(
-            "Enter the coordinates of the second point (separated by spaces): "
-        ).split(),
-    )
-)
-
-# Calculate and display the distance
-dist = euclidean_distance(p1, p2)
-print(f"The Euclidean distance between the two points is: {dist}")
